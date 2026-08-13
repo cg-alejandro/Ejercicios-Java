@@ -1,3 +1,8 @@
+/*
+Ejercicio: Suma de numeros enteros 
+Pedir al usuario qe ingrese 2 numeros y realizar el calculo
+
+*/
 import java.util.Scanner;
 
 

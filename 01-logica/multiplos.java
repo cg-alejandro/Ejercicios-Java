@@ -1,3 +1,8 @@
+/*
+Ejercicio: multiplo
+pedir al usuario un numero, comprobar varias condiciones y determinar
+si el numero ingresado es multiplo de 2 y 3
+*/
 import java.util.Scanner;
 
 

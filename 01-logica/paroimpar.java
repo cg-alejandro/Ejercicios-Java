@@ -1,3 +1,8 @@
+/*
+Ejercicio: numero par o impar
+Pedir al usuario un numero y comprobar si es par o impar
+
+*/
 import java.util.Scanner;
 
 

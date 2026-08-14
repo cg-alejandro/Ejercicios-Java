@@ -4,7 +4,7 @@ Solicita al usuario su edad y altura si cumple las restricciones
 */
 import java.util.Scanner;
  
-public class mayorde { 
+public class mayorDe { 
   public static void main(String[] args){
     Scanner scanner = new Scanner(System.in);
        System.out.println ("Ingrese su edad");

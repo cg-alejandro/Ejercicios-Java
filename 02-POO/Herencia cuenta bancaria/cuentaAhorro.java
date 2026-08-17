@@ -14,5 +14,9 @@ public class cuentaAhorro extends Cuenta {
          public void abonarInteres(){
             ingresarDinero(calcularInteres());
            
+         }@Override
+         public void ingresarDinero (double cantidad){
+            double cantidadAbonada = cantidad + (cantidad*0.01);
+            super.ingresarDinero(cantidadAbonada);
          }
       }

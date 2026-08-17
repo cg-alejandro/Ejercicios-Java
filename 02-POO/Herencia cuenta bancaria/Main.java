@@ -2,7 +2,7 @@ public class Main{
 public static void main(String[] args){
     cuentaAhorro miCuentaahorro = new cuentaAhorro ("Ale", "13456",500 ,0.035);
       System.out.println( miCuentaahorro.getSaldo() );
-        System.out.println(miCuentaahorro.calcularInteres()); 
+        miCuentaahorro.ingresarDinero(100); 
          System.out.println( miCuentaahorro.getSaldo() );
          miCuentaahorro.abonarInteres();
          System.out.println(miCuentaahorro.getSaldo());

@@ -6,9 +6,8 @@ public static void main(String[] args){
          System.out.println( miCuentaahorro.getSaldo() );
          miCuentaahorro.abonarInteres();
          System.out.println(miCuentaahorro.getSaldo());
-       Cuenta segndaCuenta = new Cuenta ("Manolo","14568", 300);
-        System.out.println( segndaCuenta.getSaldo());
-         segndaCuenta.retirarDinero(300);
-       System.out.println(segndaCuenta.getSaldo());
-}
-}
+       cuentaCorriente miCuentacorriente = new cuentaCorriente("Manolo","14568", 300, 0.02);
+        System.out.println( miCuentacorriente.getSaldo());
+         miCuentacorriente.ingresarDinero(300);
+       System.out.println(miCuentacorriente.getSaldo());
+}}

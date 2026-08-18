@@ -6,7 +6,7 @@ Pedir al usuario un numero y comprobar si es par o impar
 import java.util.Scanner;
 
 
-public class paroimpar {
+public class paroImpar {
     public static void main(String[] args){
         Scanner scanner = new Scanner (System.in);
         System.out.println("ingrese un numero");

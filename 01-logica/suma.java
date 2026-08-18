@@ -22,7 +22,5 @@ public class suma{
     System.out.println("el resultado es " + totalnm );
        
         scanner.close();
-
     }
-    
 }

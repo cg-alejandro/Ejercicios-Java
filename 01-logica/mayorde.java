@@ -11,7 +11,7 @@ public class mayorDe {
        int edad = scanner.nextInt();
        if (edad < 18 ){
             System.out.println("no puede acceder");
-          }if(edad >= 18 ){
+       }if(edad >= 18 ){
        System.out.println("ingrese su altura");
        int altura = scanner.nextInt();
           if (altura >= 140 ){
@@ -19,7 +19,7 @@ public class mayorDe {
           }else{
             System.out.println("no puede acceder");
           }
-          }
-          scanner.close();
+       }
+    scanner.close();
   }
 }

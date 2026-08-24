@@ -3,7 +3,7 @@ public class gato extends animales{
       super(nombre, edad);
     }
     @Override
-       public void hacerSonido(String sonido){
+       public void hacerSonido(){
           System.out.println("miau");
        }
   }

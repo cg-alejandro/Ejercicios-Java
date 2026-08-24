@@ -1,10 +1,11 @@
-public class animales{
+public abstract class animales{
     String nombre;
     int edad;
     public animales ( String nombre, int edad){
         this.nombre = nombre;
         this.edad = edad;
-    }public void hacerSonido (String sonido){
-        System.out.println("sonido");
+    }public abstract void hacerSonido ();
+     public void mostrarDatos(){
+          System.out.println("es un "+ nombre + " y tiene " + edad +" años");
     }
 }

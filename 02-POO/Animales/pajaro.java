@@ -1,4 +1,4 @@
-public class pajaro extends animales implements volador {
+public class pajaro extends animales implements volador, nadador {
     public pajaro(String nombre, int edad){
         super(nombre, edad);
     }
@@ -9,4 +9,8 @@ public class pajaro extends animales implements volador {
     public void volar(){
         System.out.println("el pajaro esta volando");
     }
+    @Override
+        public void nadar(){
+            System.out.println("el pajaro esta nadando");
+        }
 }

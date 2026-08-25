@@ -5,9 +5,10 @@ public class Main {
         pajaro miPajaro= new pajaro( "gorrión", 1);
              animales animal= miPajaro;
              volador volador= miPajaro;
-    
+             nadador nadador= miPajaro;
           animal.hacerSonido();
           volador.volar();
+          nadador.nadar();
           primerAnimal.hacerSonido();
           segundoAnimal.hacerSonido();
           primerAnimal.mostrarDatos();

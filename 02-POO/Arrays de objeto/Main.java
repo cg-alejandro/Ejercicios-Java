@@ -50,6 +50,55 @@ public class Main {
                  listaAnimales[i].mostrarDatos(); 
                }
            }
+        // 7. Detectar nombres repetidos
+        int nombresRepetidos = 0;
+          for (int i = 0; i < listaAnimales.length; i++) {
+            for (int j = i + 1; j < listaAnimales.length; j++) {
+              if (listaAnimales[i].nombre.equals(listaAnimales[j].nombre)) {
+                nombresRepetidos++;
+              }
+            }
+          }if(nombresRepetidos > 0){
+             System.out.println("hay nombres repetidos");
+          }else{
+                System.out.println("no hay nombres repetidos");
+              }
+        // 8. Insertar un elemento en el array en la posicion [1]
+          animales[] nuevosAnimales = new animales[listaAnimales.length + 1];
+           for (int i = 0; i < nuevosAnimales.length; i++) {
+             if (i < 1) {
+                nuevosAnimales[i] = listaAnimales[i];
+             }
+           }for (int i = listaAnimales.length - 1; i >= 1; --i) {
+                nuevosAnimales[i + 1] =listaAnimales[i];
+           }
+           animales nevoAnimal = new perro("bodeguero", 2);
+           nuevosAnimales[1] = nevoAnimal;
+          for (int i = 0; i < nuevosAnimales.length; i++) {
+            nuevosAnimales[i].mostrarDatos();
+          }
+        // 9. Intercambiar 2 objetos de un array
+            animales temporal = listaAnimales[0];
+            listaAnimales[0] = listaAnimales[1];
+            listaAnimales[1] = temporal;
+      
+        // 10. Copiar un array de objetos
+        animales[] copiaAnimales = new animales[listaAnimales.length];
+          for (int i = 0; i < copiaAnimales.length; i++) {
+            copiaAnimales[i] = listaAnimales[i];
+          }
+        // 11. Comparar arrays de objeto
+        boolean iguales = true;
+        for (int i = 0; i < copiaAnimales.length; i++) {
+          if(!listaAnimales[i].nombre.equals(copiaAnimales[i].nombre)){
+            iguales = false;
+          }
+        }if(iguales){
+        System.out.println("los arrays son iguales");
+     }else{
+        System.out.println("los arrays no son iguales");
+     }
+
             if (encontrado) {
             System.out.println("esta en la posición " + posicionSiames);
             listaAnimales[posicionSiames].mostrarDatos();

@@ -24,6 +24,10 @@ public class Main {
                 break;
             } 
           }
+           if (encontrado) {
+            System.out.println("esta en la posición " + posicionSiames);
+            listaAnimales[posicionSiames].mostrarDatos();
+          }
         // 3. contar animales que tienen mas de 4 años
           int masde4años = 0;
           for (int i = 0; i < listaAnimales.length; i++) {
@@ -31,6 +35,7 @@ public class Main {
                 masde4años++;
              }
           } 
+          System.out.println("hay "+ masde4años +" animales de mas de 4 años");
         // 4. buscar el animal de mayor edad
           int mayor= listaAnimales[0].edad;
           int posicionMayor = 0;
@@ -40,6 +45,8 @@ public class Main {
                  posicionMayor = i;  
               }
             }
+           System.out.println("el animal mas mayor:");
+          listaAnimales[posicionMayor].mostrarDatos();
         // 5. modificar un atributo de un objeto
            listaAnimales[posicionSiames].edad = 4;
 
@@ -93,18 +100,40 @@ public class Main {
           if(!listaAnimales[i].nombre.equals(copiaAnimales[i].nombre)){
             iguales = false;
           }
-        }if(iguales){
-        System.out.println("los arrays son iguales");
-     }else{
-        System.out.println("los arrays no son iguales");
-     }
-
-            if (encontrado) {
-            System.out.println("esta en la posición " + posicionSiames);
-            listaAnimales[posicionSiames].mostrarDatos();
+          }if(iguales){
+          System.out.println("los arrays son iguales");
+          }else{
+           System.out.println("los arrays no son iguales");
           }
-          System.out.println("hay "+ masde4años +" animales de mas de 4 años");
-          System.out.println("el animal mas mayor:");
-          listaAnimales[posicionMayor].mostrarDatos();
-       }
-}
+        // 12. Ordenar objetos por un atributo
+        animales temporalOrdenar = listaAnimales[0];
+        for (int i = 0; i < listaAnimales.length; i++) {
+          for (int j = i + 1; j < listaAnimales.length; j++) {
+            if (listaAnimales[i].edad > listaAnimales[j].edad) {
+              temporalOrdenar = listaAnimales[i];
+              listaAnimales[i] = listaAnimales[j];
+              listaAnimales[j] = temporalOrdenar;
+
+            }
+          }
+          }System.out.println("la lista ordenada es:");
+          for (int i = 0; i < copiaAnimales.length; i++) {
+          listaAnimales[i].mostrarDatos();
+        }
+        // 13. Buscar el animal que sea el segundo mayor
+        int segundoMayor = listaAnimales[0].edad;
+        int posicionSegundomayor = 0;
+        if (posicionMayor == 0) {
+          segundoMayor = listaAnimales[1].edad;
+          posicionSegundomayor = 1;
+        }
+        for (int i = 0; i < listaAnimales.length; i++){
+          if (listaAnimales[i].edad < mayor && listaAnimales[i].edad > segundoMayor) {
+            segundoMayor = listaAnimales[i].edad;
+            posicionSegundomayor = i;
+          }
+        }
+        System.out.println("el segundo animal mas mayor:");
+        listaAnimales[posicionSegundomayor].mostrarDatos();
+      }
+    }

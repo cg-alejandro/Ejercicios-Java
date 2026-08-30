@@ -12,5 +12,6 @@ public class pedirContrasena{
                 System.out.println("contraseña correcta bienvenido");
             }
         }while(contrasenaIntroducida != contrasena);
+        scanner.close();
     }
 }

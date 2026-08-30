@@ -13,6 +13,7 @@ public class numeroEntre {
             System.out.println("el numero esta en el rango correcto");
         }
     }while(numeroIntroducido < 1 || numeroIntroducido > 10);
-   }
+   scanner.close();
+}
     
 }

@@ -1,5 +1,5 @@
 /*Ejercicio : Pedir al usuario un numero entre 1 y 10 
-si esta fuera de ranfo volver a pedirlo 
+si esta fuera de rango volver a pedirlo 
 */
 import java.util.Scanner;
 public class numeroEntre {
@@ -14,6 +14,5 @@ public class numeroEntre {
         }
     }while(numeroIntroducido < 1 || numeroIntroducido > 10);
    scanner.close();
-}
-    
+  }
 }

@@ -7,10 +7,6 @@ import java.util.Scanner;
 
 
 public class suma{
-    public int sma() {
-        int totalnm = numa + numb;
-        return totalnm;
-    }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("ingrese un numero");

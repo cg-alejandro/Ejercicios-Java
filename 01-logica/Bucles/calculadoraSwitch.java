@@ -39,5 +39,6 @@ public class calculadoraSwitch {
                 System.out.println("la operación no se puede realizar");
                 break;
         }
+        scanner.close();
     }
 }

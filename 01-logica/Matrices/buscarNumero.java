@@ -28,5 +28,6 @@ public class buscarNumero {
     }else{
         System.out.println("el numero no esta en la matriz");
     }
+    scanner.close();
   }
 }

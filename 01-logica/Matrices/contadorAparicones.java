@@ -23,5 +23,6 @@ public class contadorAparicones {
         }else{
         System.out.println("el numero aparece " + contador + " veces");
         }
+        scanner.close();
     }
 }

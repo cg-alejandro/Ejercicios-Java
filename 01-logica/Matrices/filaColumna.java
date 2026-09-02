@@ -21,5 +21,6 @@ public class filaColumna {
          }
     }
     System.out.println("la fila tiene " + contadorPares + " numeros pares");
+   scanner.close();  
   }
 }

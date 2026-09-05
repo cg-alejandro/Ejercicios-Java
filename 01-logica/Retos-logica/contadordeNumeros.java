@@ -1,4 +1,4 @@
-/* Ejercicio: Crear un programa qe pida al usuario 10 numeros 
+/* Ejercicio: Crear un programa que pida al usuario 10 numeros 
 tras esto se debe ver en pantalla cuantos numeros positivos, negativos,
 cuantos 0 y cual fue la suma total
 

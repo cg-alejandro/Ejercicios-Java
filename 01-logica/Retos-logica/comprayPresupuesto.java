@@ -47,6 +47,6 @@ public class comprayPresupuesto {
             System.out.println("alcanzo para comprar todos los productos");
         }
         
-        
+       scanner.close(); 
     }
 }

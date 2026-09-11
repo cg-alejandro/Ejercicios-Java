@@ -41,5 +41,6 @@ public class controlInventario {
     if (noDisponible) {
          System.out.println("Producto no disponible");
     }
+    scanner.close();
 }
 }

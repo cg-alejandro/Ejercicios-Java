@@ -39,5 +39,6 @@ public class numerosRepetidos {
              System.out.println(menores + " son menores que el anterior");
              System.out.println(iguales + " son iguales que el anterior");
              System.out.println(mayorDiferencia + " es la mayor diferencia");
+             scanner.close();
  }
 }

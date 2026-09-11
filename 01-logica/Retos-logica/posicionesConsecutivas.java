@@ -33,5 +33,6 @@ public class posicionesConsecutivas {
         System.out.println("mayores: " + mayores);
         System.out.println("menores: " + menores);
         System.out.println("iguales: " + iguales);
+        scanner.close();
     }
 }

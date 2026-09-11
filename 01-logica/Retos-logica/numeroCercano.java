@@ -30,5 +30,6 @@ public class numeroCercano {
         System.out.println("media: " + media);
         System.out.println("numero mas cercano: " + numeroCercano);
         System.out.println("posicion: " + posicion);
+        scanner.close();
   }
 }

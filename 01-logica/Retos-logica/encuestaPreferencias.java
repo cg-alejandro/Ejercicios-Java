@@ -58,6 +58,7 @@ public class encuestaPreferencias {
         }else if (javaScript == java) {
             System.out.println("hubo empate entre javaScript y java");
         }
+        scanner.close();
         }
     }
 

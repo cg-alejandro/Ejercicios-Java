@@ -1,3 +1,8 @@
+/* Ejercicio: crear un programa que gestione una lista de nombres
+debe estra vacio al principio y pedir al usuario 5 nombres
+añadirlos a la lista, mostrar los nombres, cuantoa hay y pedir
+otro nombre y comprobar si esta
+ */
 import java.util.ArrayList;
 import java.util.Scanner;
 public class listaNombres {

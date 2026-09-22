@@ -35,5 +35,6 @@ public class filtrarLista {
        }else{
         System.out.println("el numero no esta en la lista");
        }
+       scanner.close();
     }
 }

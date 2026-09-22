@@ -1,3 +1,7 @@
+/*Ejercico: crear un programa que pida 10 numeros y añadirlos a una
+lista, luego crera otra lista donde no esten los numeros duplicados
+mostrar la lista y contar cuanos elementos se eliminaron
+*/
 import java.util.ArrayList;
 import java.util.Scanner;
 public class eliminarDuplicados {
@@ -12,15 +16,15 @@ public class eliminarDuplicados {
             numeros.add(scanner.nextInt());
     }
         System.out.println(numeros);
-        for (int i = 1; i < 10; i++) {
-            int contadorRepetido = 0;
-            if (numeros.get(i) != numeros.get(i - 1)) {
-               sinDuplicados.add(numeros.get(i));
-               contador++;
-            }
+        for (int i = 0; i < numeros.size(); i++) {
+           if (sinDuplicados.contains(numeros.get(i))) {
+            contador++;
+           }else{
+            sinDuplicados.add(numeros.get(i));
+           }
         }
-        int eliminados = contador - 10;
         System.out.println(sinDuplicados);
-        System.out.println("se eliminaron " + eliminados);
+        System.out.println("se eliminaron " + contador);
+        scanner.close();
     }
 }

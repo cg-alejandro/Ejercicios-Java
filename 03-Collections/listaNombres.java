@@ -26,5 +26,6 @@ public class listaNombres {
             }else{
                 System.out.println("no esta en la lista");
             }
+            scanner.close();
         }
 }

@@ -15,18 +15,19 @@ public class listaNmeros {
         numeros.add(30);
         numeros.add(40);
         numeros.add(50);
-        System.out.println(numeros);
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("introduzca una posicion");
-        posicion = scanner.nextInt();
-        System.out.println("introduzca un nuevo numero");
-        nuevoNumero = scanner.nextInt();
-        numeros.set(posicion, nuevoNumero);
-        System.out.println(numeros);
-        System.out.println("que posicion quiere eliminar");
-        posicion = scanner.nextInt();
-        numeros.remove(posicion);
-        System.out.println(numeros);
-        System.out.println("tiene tamaño de " + numeros.size());
-        }
+         System.out.println(numeros);
+         Scanner scanner = new Scanner(System.in);
+         System.out.println("introduzca una posicion");
+          posicion = scanner.nextInt();
+         System.out.println("introduzca un nuevo numero");
+          nuevoNumero = scanner.nextInt();
+          numeros.set(posicion, nuevoNumero);
+         System.out.println(numeros);
+         System.out.println("que posicion quiere eliminar");
+          posicion = scanner.nextInt();
+          numeros.remove(posicion);
+         System.out.println(numeros);
+         System.out.println("tiene tamaño de " + numeros.size());
+        scanner.close();
+    }
 }

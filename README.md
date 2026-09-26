@@ -24,6 +24,7 @@ La finalidad no es utilizar IA para que escriba código por mí, sino utilizarla
      -Arrays de objeto aplico todo lo aprendido en ejercicios anteriores añadiendole arrays con los que trabajar
 03.- Collections
      - ArrayList
+     - LinkedList
 ---TECNOLOGIAS---
 - Java
 - Git

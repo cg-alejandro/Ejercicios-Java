@@ -2,7 +2,7 @@ import java.util.HashSet;
 import java.util.Scanner;
 public class usuariosRegistrados {
     public static void main(String[] args) {
-        HashSet<String> ausuario = new HashSet();
+        HashSet<String> ausuario = new HashSet<>();
         Scanner scanner = new Scanner(System.in);
         System.out.println("1.- Registrar usuario");
         System.out.println("2.- Comprobar usuario");
@@ -52,5 +52,6 @@ public class usuariosRegistrados {
             }
 
         } while (opcion != 5);
+        scanner.close();
     }
 }

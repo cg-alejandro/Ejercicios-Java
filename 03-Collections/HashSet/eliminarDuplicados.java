@@ -7,7 +7,7 @@ public class eliminarDuplicados {
 
     public static void main(String[] args) {
         int[] numeros = {4, 7, 4, 2, 7, 9, 2, 4, 1, 9};
-        HashSet<Integer> sinDplicados = new HashSet();
+        HashSet<Integer> sinDplicados = new HashSet<>();
         for (int i = 0; i < numeros.length; i++) {
             sinDplicados.add(numeros[i]);
         }

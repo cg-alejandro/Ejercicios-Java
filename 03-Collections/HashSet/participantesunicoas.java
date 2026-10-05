@@ -27,5 +27,6 @@ public class participantesunicoas {
         }else{
             System.out.println("no esta participando");
         }
+        scanner.close();
     }
 }

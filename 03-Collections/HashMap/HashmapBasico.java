@@ -22,5 +22,6 @@ public class HashmapBasico {
             System.out.println("el alumno no se encontró");
         }
         System.out.println("hay " + alumnos.size() + " alumnos");
+        scanner.close();
     }
 }

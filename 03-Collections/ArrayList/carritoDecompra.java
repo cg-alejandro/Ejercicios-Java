@@ -88,5 +88,6 @@ public class carritoDecompra {
                     break;
             }
         } while (opcion != 6);
+        scanner.close();
     }
 }

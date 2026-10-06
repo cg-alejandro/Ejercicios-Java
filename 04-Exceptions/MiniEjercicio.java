@@ -1,3 +1,6 @@
+/* Ejercicio: Crear un programa que pida un numero a un usuario 
+comprobar si es entero y capturar el error si introduce algo distinto
+ */
 import java.util.InputMismatchException;
 import java.util.Scanner;
 public class MiniEjercicio {

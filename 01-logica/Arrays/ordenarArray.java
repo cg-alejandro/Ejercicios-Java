@@ -1,3 +1,6 @@
+/* Ejercicio: Crear un array de enteros y ordénalo de menor a mayor 
+utilizando bucles for y mostrar el array final.
+ */
 public class ordenarArray {
 
     public static void main(String[] args) {

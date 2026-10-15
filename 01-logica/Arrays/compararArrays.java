@@ -1,3 +1,5 @@
+/* Ejercicio: Comparar dos arrays para determinar si son iguales en tamaño y contenido.
+ */
 public class compararArrays {
      public static void main(String[] args) {
         int[] numeros1 = {4, 7, 2, 9};

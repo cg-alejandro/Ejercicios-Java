@@ -1,3 +1,6 @@
+/* Ejercicio: Crea un array de enteros y calcula la suma de todos sus elementos y su media aritmética utilizando un bucle for 
+muestra ambos resultados por consola.
+ */
 public class sumayMedia {
     public static void main(String[] args) {
         int[] numeros = {4, 7, 2, 9, 6};

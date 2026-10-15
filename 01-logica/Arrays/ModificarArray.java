@@ -1,3 +1,6 @@
+/* Ejercicio: Crear un array de enteros y recorrer sus elementos 
+multiplicando cada valor por 2 y mostrar el array final.
+ */
 public class ModificarArray{
    public static void main(String[] args){
        int[] numeros = {2, 5, 8, 3, 10};

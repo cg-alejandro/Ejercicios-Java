@@ -1,3 +1,6 @@
+/* Ejercicio: Recorrer un array hasta localizar un numero concreto 
+mostrar su posicion y si no esta indicarlo.
+ */
 public class buscarPosicion {
     public static void main(String[] args) {
         int[] numeros = {8, 3, 12, 5, 7};

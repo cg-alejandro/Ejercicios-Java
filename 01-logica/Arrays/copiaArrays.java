@@ -1,3 +1,6 @@
+/* Ejercicio: Crear un array copia sus elementos
+en otro array de la misma longitud  modificando el primer elemento
+ */
 public class copiaArrays{
 
    public static void main(String[] args){

@@ -1,3 +1,6 @@
+/* Ejercicio: Crea un array de enteros y encuentra el número mayor y el segundo mayor sin ordenar el array 
+muestra ambos valores por consola.
+ */
 public class segundoMayor {
     public static void main(String[] args) {
         int[] numeros = {4, 7, 2, 9, 6, 8};

@@ -1,3 +1,5 @@
+/* Ejercicio: Contar cuántas veces se repite un número determinadoe indicarlo en pantalla
+ */
 public class contadorApariciones {
     public static void main(String[] args) {
         int[] numeros = {4, 7, 4, 2, 4, 9, 7, 4};

@@ -1,3 +1,6 @@
+/* Ejercicio: Crear array de enteros y comprobar con bucles for si contiene números repetidos
+mostrar por consola si existen o no valores duplicados.
+ */
 public class repeticion {
     public static void main(String[] args) {
         int[] numeros = {4, 7, 2, 4, 9, 7};
